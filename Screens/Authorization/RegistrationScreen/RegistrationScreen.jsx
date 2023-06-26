@@ -43,7 +43,7 @@ import CirclePlus from "../../../assets/svg/CirclePlus";
 
 const RegistrationScreen = () => {
   const [isShowKeyboard, setIsShowKeyboard] = useState(false);
-  const [isAvatar, setAvatar] = useState(false);
+  const [isAvatar, setAvatar] = useState(null);
   const [isShowPassword, setIsShowPassword] = useState(false);
   const [currentFocused, setCurrentFocused] = useState("");
   const [password, setPassword] = useState("");

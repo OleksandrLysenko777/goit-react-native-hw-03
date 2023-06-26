@@ -27,7 +27,7 @@ import {
   link,
   linkText,
   linkTextUnderline,
-} from "./AuthPagesStyles";
+} from "../AuthPagesStyles";
 import backgroundImg from "../../../assets/img/background.jpg";
 
 const LoginScreen = () => {
